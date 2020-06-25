@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一个计算器</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <table id="jsq" style="table-layout:fixed;">
+        <tr>
+            <th colspan="4" id='end'></th>
+
+        </tr>
+        <tr>
+            <th colspan="4" id='show'></th>
+
+        </tr>
+
+        <tr class="spe">
+            <td onclick="tap('%')">%</td>
+            <td onclick="cleAll()">CE</td>
+            <td onclick="cle()">C</td>
+            <td onclick="del()">&larr; </td>
+        </tr>
+        <tr class="spe">
+            <td onclick="tap('¹/')">¹/x</td>
+            <td onclick="tap('²')">x²</td>
+            <td onclick="tap('²√')">²√</td>
+            <td class="spe" onclick="tap('÷')">÷</td>
+        </tr>
+
+        <tr class="nub">
+            <td onclick="tap(7)">7</td>
+            <td onclick="tap(8)">8</td>
+            <td onclick="tap(9)">9</td>
+            <td class="spe" onclick="tap('×')">×</td>
+        </tr>
+        <tr class="nub">
+            <td onclick="tap(4)">&#52; </td>
+            <td onclick="tap(5)">&#53;</td>
+            <td onclick="tap(6)">&#54;</td>
+            <td class="spe" onclick="tap('+')">+</td>
+        </tr>
+        <tr class="nub">
+            <td onclick="tap(1)">&#49;</td>
+            <td onclick="tap(2)">&#50;</td>
+            <td onclick="tap(3)">&#51;</td>
+            <td class="spe" onclick="tap('-')">-</td>
+        </tr>
+        <tr class="nub">
+            <td onclick="tap('±')">±</td>
+            <td onclick="tap(0)">0</td>
+            <td onclick="tap('.')">.</td>
+            <td class="equ" onclick="rste()">=</td>
+        </tr>
+    </table>
+    <script src="main.js"></script>
+</body>
+
+</html>
