@@ -1,0 +1,51 @@
+body tr th td{
+    padding: 0;
+    margin: 0;
+}
+
+th{
+    height: 50px;
+
+    
+}
+td{
+    padding: 0px;
+    margin: 0px;
+}
+table tr td:hover{
+    background-color: cadetblue;
+}
+table{
+    color: aliceblue;
+    background-color: #6E6E6E;
+    margin: 100px auto;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+
+}
+
+
+.nub{
+    background-color: #151515;
+}
+.spe{
+    background-color: #424242;
+}
+.equ{
+    background-color: #084B8A;
+}
+#show{
+    color: seashell;
+    height: 70px;
+    border: 1px solid #424242;
+    text-align: right;
+    font-size: 1.5em;
+}
+#end{
+    color: rgb(175, 175, 175);
+    height: 50px;
+    border: 1px solid #424242;
+    text-align: right;
+    font-size: 1em;
+}
